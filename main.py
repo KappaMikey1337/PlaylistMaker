@@ -101,7 +101,7 @@ def get_page(subphrase: str, track_limit: int, offset: int) -> Optional[Query]:
 
         track_limit: The number of songs in the page.
 
-        offset:      The page number. Needs to be an int.
+        offset:      The page number. Needs to be an integer.
 
     Returns:
         The dictionary of matching songs, if any.
